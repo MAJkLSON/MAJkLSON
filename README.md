@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @MAJkLSON
+- 👀 I’m interested in telecommunications, python, bash, shell...
+- 🌱 I’m currently learning everything.
+- 💞️ I’m looking to collaborate on startup projects.
+- 📫 How to reach me https://www.linkedin.com/in/nemecmichal/
