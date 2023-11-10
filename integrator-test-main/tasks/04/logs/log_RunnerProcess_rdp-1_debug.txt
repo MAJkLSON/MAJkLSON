@@ -1,0 +1,106 @@
+2023-11-08 12:07:19.773+01:00 |      rdp-1 | MainThread | line  76 |   DEBUG |                     aiviro.core.device.RDPDeviceV3 | initialized with pyfreerdp version '3.4.2'
+2023-11-08 12:07:19.773+01:00 |      rdp-1 | MainThread | line  29 |   DEBUG |                   aiviro.core.services.MaskService | initialized
+2023-11-08 12:07:19.773+01:00 |      rdp-1 | MainThread | line  40 |   DEBUG |          aiviro.core.runner_service.ImageCollector | initialized
+2023-11-08 12:07:19.774+01:00 |      rdp-1 | MainThread | line  70 |   DEBUG |                 aiviro.core.services.RunnerProcess | initialized, starting
+2023-11-08 12:07:19.774+01:00 |      rdp-1 | MainThread | line  82 |   DEBUG |                     aiviro.core.device.RDPDeviceV3 | Starting device
+2023-11-08 12:07:22.190+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:07:24.047+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:07:24.625+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `add_screen_mask` of `MaskService`
+2023-11-08 12:07:24.626+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `force_wait_n_screens` of `ImageCollector`
+2023-11-08 12:07:24.667+01:00 |      rdp-1 | MainThread | line  80 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Forced wait for screens, 1 remaining
+2023-11-08 12:07:25.250+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:07:26.106+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:07:27.132+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `update_working_area` of `WorkingAreaService`
+2023-11-08 12:07:27.132+01:00 |      rdp-1 | MainThread | line 178 |   DEBUG |              aiviro.core.runner.WorkingAreaService | Working area has been set to None
+2023-11-08 12:07:27.191+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `update_working_area` of `WorkingAreaService`
+2023-11-08 12:07:27.191+01:00 |      rdp-1 | MainThread | line 178 |   DEBUG |              aiviro.core.runner.WorkingAreaService | Working area has been set to None
+2023-11-08 12:07:27.388+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `hot_key` of `RDPDeviceV3`
+2023-11-08 12:07:28.243+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:07:37.598+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `type_text` of `RDPDeviceV3`
+2023-11-08 12:07:37.598+01:00 |      rdp-1 | MainThread | line 158 |   DEBUG |                     aiviro.core.device.RDPDeviceV3 | type-text on None
+2023-11-08 12:07:44.375+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `force_wait_n_screens` of `ImageCollector`
+2023-11-08 12:07:44.418+01:00 |      rdp-1 | MainThread | line  80 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Forced wait for screens, 1 remaining
+2023-11-08 12:07:45.050+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:07:45.396+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `press_key` of `RDPDeviceV3`
+2023-11-08 12:07:47.316+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:07:52.421+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `update_working_area` of `WorkingAreaService`
+2023-11-08 12:07:52.421+01:00 |      rdp-1 | MainThread | line 178 |   DEBUG |              aiviro.core.runner.WorkingAreaService | Working area has been set to None
+2023-11-08 12:07:54.595+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `add_screen_mask` of `MaskService`
+2023-11-08 12:07:54.595+01:00 |      rdp-1 | MainThread | line  40 | WARNING |                   aiviro.core.services.MaskService | ScreenMask(box=({'min_pt': (0, 1040), 'max_pt': (1920, 1080), 'label': 'area-type-box', 'score': 0.0, 'instant': False, 'blocked': False, 'extra': {}}, []), color=<Color RGBA (0, 0, 0, 1.0)/>) was already added into '_windows' mask-group
+2023-11-08 12:07:54.596+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `force_wait_n_screens` of `ImageCollector`
+2023-11-08 12:07:54.655+01:00 |      rdp-1 | MainThread | line  80 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Forced wait for screens, 1 remaining
+2023-11-08 12:07:57.039+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `update_working_area` of `WorkingAreaService`
+2023-11-08 12:07:57.040+01:00 |      rdp-1 | MainThread | line 178 |   DEBUG |              aiviro.core.runner.WorkingAreaService | Working area has been set to None
+2023-11-08 12:07:57.095+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `update_working_area` of `WorkingAreaService`
+2023-11-08 12:07:57.095+01:00 |      rdp-1 | MainThread | line 178 |   DEBUG |              aiviro.core.runner.WorkingAreaService | Working area has been set to None
+2023-11-08 12:07:57.220+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `hot_key` of `RDPDeviceV3`
+2023-11-08 12:07:57.992+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:08:00.419+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `type_text` of `RDPDeviceV3`
+2023-11-08 12:08:00.419+01:00 |      rdp-1 | MainThread | line 158 |   DEBUG |                     aiviro.core.device.RDPDeviceV3 | type-text on None
+2023-11-08 12:08:07.226+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `force_wait_n_screens` of `ImageCollector`
+2023-11-08 12:08:07.265+01:00 |      rdp-1 | MainThread | line  80 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Forced wait for screens, 1 remaining
+2023-11-08 12:08:07.836+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:08:08.159+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `press_key` of `RDPDeviceV3`
+2023-11-08 12:08:09.108+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:08:09.727+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:08:11.432+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `update_working_area` of `WorkingAreaService`
+2023-11-08 12:08:11.433+01:00 |      rdp-1 | MainThread | line 178 |   DEBUG |              aiviro.core.runner.WorkingAreaService | Working area has been set to None
+2023-11-08 12:08:11.491+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `update_working_area` of `WorkingAreaService`
+2023-11-08 12:08:11.491+01:00 |      rdp-1 | MainThread | line 178 |   DEBUG |              aiviro.core.runner.WorkingAreaService | Working area has been set to None
+2023-11-08 12:08:11.542+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `update_working_area` of `WorkingAreaService`
+2023-11-08 12:08:11.543+01:00 |      rdp-1 | MainThread | line 178 |   DEBUG |              aiviro.core.runner.WorkingAreaService | Working area has been set to None
+2023-11-08 12:08:11.644+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `hot_key` of `RDPDeviceV3`
+2023-11-08 12:08:12.444+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:08:14.945+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `type_text` of `RDPDeviceV3`
+2023-11-08 12:08:14.946+01:00 |      rdp-1 | MainThread | line 158 |   DEBUG |                     aiviro.core.device.RDPDeviceV3 | type-text on None
+2023-11-08 12:08:15.513+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `force_wait_n_screens` of `ImageCollector`
+2023-11-08 12:08:15.559+01:00 |      rdp-1 | MainThread | line  80 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Forced wait for screens, 1 remaining
+2023-11-08 12:08:16.184+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:08:16.526+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `press_key` of `RDPDeviceV3`
+2023-11-08 12:08:17.272+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:08:18.911+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:08:19.744+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `update_working_area` of `WorkingAreaService`
+2023-11-08 12:08:19.744+01:00 |      rdp-1 | MainThread | line 178 |   DEBUG |              aiviro.core.runner.WorkingAreaService | Working area has been set to None
+2023-11-08 12:08:19.903+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `hot_key` of `RDPDeviceV3`
+2023-11-08 12:08:20.445+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `clear_element` of `RDPDeviceV3`
+2023-11-08 12:08:20.445+01:00 |      rdp-1 | MainThread | line 145 |   DEBUG |                     aiviro.core.device.RDPDeviceV3 | clear-element on <BoundBox INPUT [117, 41],[1758, 82]/>, pos=[937, 61]
+2023-11-08 12:08:20.595+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `type_text` of `RDPDeviceV3`
+2023-11-08 12:08:20.596+01:00 |      rdp-1 | MainThread | line 158 |   DEBUG |                     aiviro.core.device.RDPDeviceV3 | type-text on None
+2023-11-08 12:08:21.248+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `force_wait_n_screens` of `ImageCollector`
+2023-11-08 12:08:21.287+01:00 |      rdp-1 | MainThread | line  80 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Forced wait for screens, 1 remaining
+2023-11-08 12:08:21.937+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:08:22.121+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `press_key` of `RDPDeviceV3`
+2023-11-08 12:08:22.122+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `force_wait_n_screens` of `ImageCollector`
+2023-11-08 12:08:22.163+01:00 |      rdp-1 | MainThread | line  80 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Forced wait for screens, 1 remaining
+2023-11-08 12:08:25.235+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:08:27.237+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `click` of `RDPDeviceV3`
+2023-11-08 12:08:27.237+01:00 |      rdp-1 | MainThread | line  69 |   DEBUG |                     aiviro.core.device.RDPDeviceV3 | click event on [1479, 967], box=<BoundBox BUTTON [1384, 945],[1575, 990] 'Pouze nezbytně nutné'/>, offset=[0, 0]
+2023-11-08 12:08:27.238+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `force_wait_n_screens` of `ImageCollector`
+2023-11-08 12:08:27.280+01:00 |      rdp-1 | MainThread | line  80 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Forced wait for screens, 1 remaining
+2023-11-08 12:08:28.841+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:08:29.462+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `clear_element` of `RDPDeviceV3`
+2023-11-08 12:08:29.462+01:00 |      rdp-1 | MainThread | line 145 |   DEBUG |                     aiviro.core.device.RDPDeviceV3 | clear-element on <BoundBox INPUT [896, 731],[1081, 760] 'Uživatelské jméno :'/>, pos=[988, 745]
+2023-11-08 12:08:29.612+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `type_text` of `RDPDeviceV3`
+2023-11-08 12:08:29.612+01:00 |      rdp-1 | MainThread | line 158 |   DEBUG |                     aiviro.core.device.RDPDeviceV3 | type-text on None
+2023-11-08 12:08:29.892+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `force_wait_n_screens` of `ImageCollector`
+2023-11-08 12:08:29.931+01:00 |      rdp-1 | MainThread | line  80 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Forced wait for screens, 1 remaining
+2023-11-08 12:08:30.488+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:08:30.853+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `clear_element` of `RDPDeviceV3`
+2023-11-08 12:08:30.853+01:00 |      rdp-1 | MainThread | line 145 |   DEBUG |                     aiviro.core.device.RDPDeviceV3 | clear-element on <BoundBox INPUT [896, 804],[1082, 832] 'Heslo :'/>, pos=[989, 818]
+2023-11-08 12:08:31.009+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `type_text` of `RDPDeviceV3`
+2023-11-08 12:08:31.009+01:00 |      rdp-1 | MainThread | line 158 |   DEBUG |                     aiviro.core.device.RDPDeviceV3 | type-text on None
+2023-11-08 12:08:31.128+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `force_wait_n_screens` of `ImageCollector`
+2023-11-08 12:08:31.170+01:00 |      rdp-1 | MainThread | line  80 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Forced wait for screens, 1 remaining
+2023-11-08 12:08:31.721+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:08:32.052+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `click` of `RDPDeviceV3`
+2023-11-08 12:08:32.052+01:00 |      rdp-1 | MainThread | line  69 |   DEBUG |                     aiviro.core.device.RDPDeviceV3 | click event on [937, 893], box=<BoundBox BUTTON [897, 878],[977, 908] 'Přihlásit'/>, offset=[0, 0]
+2023-11-08 12:08:32.053+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `force_wait_n_screens` of `ImageCollector`
+2023-11-08 12:08:32.097+01:00 |      rdp-1 | MainThread | line  80 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Forced wait for screens, 1 remaining
+2023-11-08 12:08:34.204+01:00 |      rdp-1 | MainThread | line  57 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Detected stable screen transition -- image in debug folder
+2023-11-08 12:08:39.719+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `click` of `RDPDeviceV3`
+2023-11-08 12:08:39.719+01:00 |      rdp-1 | MainThread | line  69 |   DEBUG |                     aiviro.core.device.RDPDeviceV3 | click event on [701, 291], box=<BoundBox TEXT [655, 286],[748, 296] 'Vážení zákazníci ,'/>, offset=[0, 0]
+2023-11-08 12:08:39.721+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `force_wait_n_screens` of `ImageCollector`
+2023-11-08 12:08:39.763+01:00 |      rdp-1 | MainThread | line  80 |   DEBUG |          aiviro.core.runner_service.ImageCollector | Forced wait for screens, 1 remaining
+2023-11-08 12:08:49.875+01:00 |      rdp-1 | MainThread | line 138 |   DEBUG |                 aiviro.core.services.RunnerProcess | Calling command `hot_key` of `RDPDeviceV3`
+2023-11-08 12:08:50.285+01:00 |      rdp-1 | MainThread | line 218 |   DEBUG |                 aiviro.core.services.RunnerProcess | Stop event triggered - closing device
+2023-11-08 12:08:50.300+01:00 |      rdp-1 | MainThread | line 220 |   DEBUG |                 aiviro.core.services.RunnerProcess | Closing finished

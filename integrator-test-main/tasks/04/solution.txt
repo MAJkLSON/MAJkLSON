@@ -1,0 +1,15 @@
+Pada to na tom, ze nenasel tlacitko Souhlasim, ktere se zrejme
+ocekava na spodku stranky, jelikoz predtim se vola prikaz
+BaseKey.LEFT_CONTROL.END, ktery ma stranku nascrollovat na spodek:
+
+log_MainProcess_info.txt
+2023-11-08 12:08:49.731+01:00 |      rdp-1 |    INFO | -> Key shortcut 'BaseKey.LEFT_CONTROL.END', skip_waiting: True
+2023-11-08 12:08:49.877+01:00 |      rdp-1 |    INFO | -> Click on <Button 'Souhlasím' FindMethod.SIMILAR/>, skip_waiting: False
+2023-11-08 12:08:50.242+01:00 |            |   ERROR | set_bookmark_collection_of_packets: Element '<Button 'Souhlasím' FindMethod.SIMILAR/>' was not found
+
+Nicmene se tak nestalo, protoze mezi obrazkovymi logy:
+2023-11-08_12-08-49-814_aiviro.core.device.KeyShortcutCommand_INFO.png
+2023-11-08_12-08-49-951_aiviro.core.services.SearchObjectService_INFO.png
+se stranka nepohne.
+
+Zkusim misto toho samotny END nebo get_by_scroll - https://docs.aiviro.com/api/methods_robot.html?highlight=get_by_scroll#aiviro.core.robots.BaseRobot.get_by_scroll

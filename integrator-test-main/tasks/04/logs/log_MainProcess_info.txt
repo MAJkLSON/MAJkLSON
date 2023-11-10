@@ -1,0 +1,70 @@
+2023-11-08 12:07:12.409+01:00 |            |    INFO | *** Aiviro/RDPRobot details ***
+2023-11-08 12:07:12.409+01:00 |            |    INFO | Remote Address: ************
+2023-11-08 12:07:12.410+01:00 |            |    INFO | Domain:
+2023-11-08 12:07:12.411+01:00 |            |    INFO | Version: 3.13.1
+2023-11-08 12:07:12.834+01:00 |            |    INFO | *******************************
+2023-11-08 12:07:22.288+01:00 |      rdp-1 |    INFO | -> Set animation timeout to 10
+2023-11-08 12:07:24.297+01:00 |      rdp-1 |    INFO | -> Get display info
+2023-11-08 12:07:24.351+01:00 |      rdp-1 |    INFO | -> Add mask <Area [0, 1040],[1920, 1080]/>, color <Color RGBA (0, 0, 0, 1.0)/>
+2023-11-08 12:07:24.439+01:00 |      rdp-1 |    INFO | Mask <BoundBox AREA-TYPE-BOX [0, 1040],[1920, 1080]/>
+2023-11-08 12:07:24.627+01:00 |      rdp-1 |    INFO | -> Switch stream source to rdp-1
+2023-11-08 12:07:24.629+01:00 |      rdp-1 |    INFO | -> Wait for elements (120): <And <Text '' FindMethod.SIMILAR/>, <Icon '' FindMethod.SIMILAR/>/>
+2023-11-08 12:07:27.080+01:00 |      rdp-1 |    INFO | -> Set working area: None
+2023-11-08 12:07:27.193+01:00 |      rdp-1 |    INFO | -> Key shortcut 'BaseKey.LEFT_WINDOW.KEY_R', skip_waiting: True
+2023-11-08 12:07:27.389+01:00 |      rdp-1 |    INFO | -> Wait for elements (15): <Or <Text 'Run' FindMethod.EQUAL/>, <Text 'Spustit' FindMethod.EQUAL/>/> && <Or <Text 'Open' FindMethod.EQUAL/>, <Text 'Otevrit' FindMethod.EQUAL/>/> && <Button 'OK' FindMethod.EQUAL|CASE_INSENSITIVE/>
+2023-11-08 12:07:37.519+01:00 |      rdp-1 |    INFO | -> Type text 'powershell /c "$wnd = (New-Object -comObject Shell.Application).Windows(); while($wnd.Count -ne 0) { $wnd | Foreach-Object {$_.quit()}};(Get-Process | Where-Object {$_.MainWindowTitle -ne \\"\\"} | Stop-Process -Force)"' into None, skip_waiting: False
+2023-11-08 12:07:45.274+01:00 |      rdp-1 |    INFO | -> Key press 'BaseKey.ENTER', skip_waiting: True
+2023-11-08 12:07:45.397+01:00 |      rdp-1 |    INFO | -> Wait until elements disappear (15): <Or <Text 'Run' FindMethod.EQUAL/>, <Text 'Spustit' FindMethod.EQUAL/>/> && <Or <Text 'Open' FindMethod.EQUAL/>, <Text 'Otevrit' FindMethod.EQUAL/>/> && <Button 'OK' FindMethod.EQUAL|CASE_INSENSITIVE/>
+2023-11-08 12:07:54.422+01:00 |      rdp-1 |    INFO | -> Get display info
+2023-11-08 12:07:54.488+01:00 |      rdp-1 |    INFO | -> Add mask <Area [0, 1040],[1920, 1080]/>, color <Color RGBA (0, 0, 0, 1.0)/>
+2023-11-08 12:07:54.555+01:00 |      rdp-1 |    INFO | Mask <BoundBox AREA-TYPE-BOX [0, 1040],[1920, 1080]/>
+2023-11-08 12:07:54.597+01:00 |      rdp-1 |    INFO | -> Switch stream source to rdp-1
+2023-11-08 12:07:54.599+01:00 |      rdp-1 |    INFO | -> Wait for elements (120): <And <Text '' FindMethod.SIMILAR/>, <Icon '' FindMethod.SIMILAR/>/>
+2023-11-08 12:07:56.969+01:00 |      rdp-1 |    INFO | -> Set working area: None
+2023-11-08 12:07:57.096+01:00 |      rdp-1 |    INFO | -> Key shortcut 'BaseKey.LEFT_WINDOW.KEY_R', skip_waiting: True
+2023-11-08 12:07:57.222+01:00 |      rdp-1 |    INFO | -> Wait for elements (15): <Or <Text 'Run' FindMethod.EQUAL/>, <Text 'Spustit' FindMethod.EQUAL/>/> && <Or <Text 'Open' FindMethod.EQUAL/>, <Text 'Otevrit' FindMethod.EQUAL/>/> && <Button 'OK' FindMethod.EQUAL|CASE_INSENSITIVE/>
+2023-11-08 12:08:00.335+01:00 |      rdp-1 |    INFO | -> Type text 'powershell /c "$wnd = (New-Object -comObject Shell.Application).Windows(); while($wnd.Count -ne 0) { $wnd | Foreach-Object {$_.quit()}};(Get-Process | Where-Object {$_.MainWindowTitle -ne \\"\\"} | Stop-Process -Force)"' into None, skip_waiting: False
+2023-11-08 12:08:08.068+01:00 |      rdp-1 |    INFO | -> Key press 'BaseKey.ENTER', skip_waiting: True
+2023-11-08 12:08:08.160+01:00 |      rdp-1 |    INFO | -> Wait until elements disappear (15): <Or <Text 'Run' FindMethod.EQUAL/>, <Text 'Spustit' FindMethod.EQUAL/>/> && <Or <Text 'Open' FindMethod.EQUAL/>, <Text 'Otevrit' FindMethod.EQUAL/>/> && <Button 'OK' FindMethod.EQUAL|CASE_INSENSITIVE/>
+2023-11-08 12:08:11.433+01:00 |      rdp-1 |    INFO | -> Set working area: None
+2023-11-08 12:08:11.544+01:00 |      rdp-1 |    INFO | -> Key shortcut 'BaseKey.LEFT_WINDOW.KEY_R', skip_waiting: True
+2023-11-08 12:08:11.645+01:00 |      rdp-1 |    INFO | -> Wait for elements (15): <Or <Text 'Run' FindMethod.EQUAL/>, <Text 'Spustit' FindMethod.EQUAL/>/> && <Or <Text 'Open' FindMethod.EQUAL/>, <Text 'Otevrit' FindMethod.EQUAL/>/> && <Button 'OK' FindMethod.EQUAL|CASE_INSENSITIVE/>
+2023-11-08 12:08:14.804+01:00 |      rdp-1 |    INFO | -> Type text 'Chrome --incognito' into None, skip_waiting: False
+2023-11-08 12:08:16.412+01:00 |      rdp-1 |    INFO | -> Key press 'BaseKey.ENTER', skip_waiting: True
+2023-11-08 12:08:16.528+01:00 |      rdp-1 |    INFO | -> Wait until elements disappear (15): <Or <Text 'Run' FindMethod.EQUAL/>, <Text 'Spustit' FindMethod.EQUAL/>/> && <Or <Text 'Open' FindMethod.EQUAL/>, <Text 'Otevrit' FindMethod.EQUAL/>/> && <Button 'OK' FindMethod.EQUAL|CASE_INSENSITIVE/>
+2023-11-08 12:08:19.746+01:00 |      rdp-1 |    INFO | -> Key shortcut 'BaseKey.LEFT_WINDOW.UP_ARROW', skip_waiting: True
+2023-11-08 12:08:19.907+01:00 |      rdp-1 |    INFO | -> Wait for elements (60): <Image 'D:\customer\images\scenario_1\reload.PNG' th=0.85/>
+2023-11-08 12:08:20.201+01:00 |      rdp-1 |    INFO | -> Clear and type 'http://klient.ppl.cz/' into <Input '' FindMethod.SIMILAR [0]/>, skip_waiting: False
+2023-11-08 12:08:20.352+01:00 |      rdp-1 |    INFO | Clear and type into <BoundBox INPUT [117, 41],[1758, 82]/>
+2023-11-08 12:08:21.976+01:00 |      rdp-1 |    INFO | -> Key press 'BaseKey.ENTER', skip_waiting: False
+2023-11-08 12:08:25.242+01:00 |      rdp-1 |    INFO | -> Get elements: <Button 'Nastavení souhlasu' FindMethod.SIMILAR [0]/>
+2023-11-08 12:08:26.874+01:00 |      rdp-1 |    INFO | -> Click on <Button 'Pouze nezbytně nutné' FindMethod.SIMILAR [0]/>, skip_waiting: False
+2023-11-08 12:08:27.193+01:00 |      rdp-1 |    INFO | Click on <BoundBox BUTTON [1384, 945],[1575, 990] 'Pouze nezbytně nutné'/>
+2023-11-08 12:08:28.842+01:00 |      rdp-1 |    INFO | -> Wait for elements (60): <Button 'Přihlásit' FindMethod.SIMILAR [0]/>
+2023-11-08 12:08:29.221+01:00 |      rdp-1 |    INFO | -> Clear and type 'in@406206' into <Input 'Uživatelské jméno:' FindMethod.SIMILAR [0]/>, skip_waiting: False
+2023-11-08 12:08:29.429+01:00 |      rdp-1 |    INFO | Clear and type into <BoundBox INPUT [896, 731],[1081, 760] 'Uživatelské jméno :'/>
+2023-11-08 12:08:30.518+01:00 |      rdp-1 |    INFO | -> Clear and type '*****' into <Input 'Heslo:' FindMethod.SIMILAR [0]/>, skip_waiting: False
+2023-11-08 12:08:30.765+01:00 |      rdp-1 |    INFO | Clear and type into <BoundBox INPUT [896, 804],[1082, 832] 'Heslo :'/>
+2023-11-08 12:08:31.761+01:00 |      rdp-1 |    INFO | -> Click on <Button 'Přihlásit' FindMethod.SIMILAR [0]/>, skip_waiting: False
+2023-11-08 12:08:32.016+01:00 |      rdp-1 |    INFO | Click on <BoundBox BUTTON [897, 878],[977, 908] 'Přihlásit'/>
+2023-11-08 12:08:39.205+01:00 |      rdp-1 |    INFO | -> Get elements: <Text 'Vážení zákazníci,' FindMethod.SIMILAR [0]/>
+2023-11-08 12:08:39.483+01:00 |      rdp-1 |    INFO | -> Click on <Text 'Vážení zákazníci,' FindMethod.SIMILAR [0]/>, skip_waiting: False
+2023-11-08 12:08:39.680+01:00 |      rdp-1 |    INFO | Click on <BoundBox TEXT [655, 286],[748, 296] 'Vážení zákazníci ,'/>
+2023-11-08 12:08:49.731+01:00 |      rdp-1 |    INFO | -> Key shortcut 'BaseKey.LEFT_CONTROL.END', skip_waiting: True
+2023-11-08 12:08:49.877+01:00 |      rdp-1 |    INFO | -> Click on <Button 'Souhlasím' FindMethod.SIMILAR/>, skip_waiting: False
+2023-11-08 12:08:50.242+01:00 |            |   ERROR | set_bookmark_collection_of_packets: Element '<Button 'Souhlasím' FindMethod.SIMILAR/>' was not found
+Traceback (most recent call last):
+  File "D:\customer\src\scenario_1\PPL\handler.py", line 69, in set_bookmark_collection_of_packets
+    self.robot.click(aiviro.Button("Souhlasím"))
+  File "D:\customer\venv\Lib\site-packages\aiviro\core\robots\robot_dynamic.py", line 57, in click
+    self._cmd_proxy.click.execute(
+  File "D:\customer\venv\Lib\site-packages\aiviro\core\utils\common.py", line 92, in inner
+    x = foo(*args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\customer\venv\Lib\site-packages\aiviro\core\commands\commands_device.py", line 57, in execute
+    raise exceptions.SearchObjectError(f"Element '{element}' was not found")
+aiviro.core.utils.exceptions.SearchObjectError: Element '<Button 'Souhlasím' FindMethod.SIMILAR/>' was not found
+2023-11-08 12:08:50.258+01:00 |      rdp-1 |    INFO | -> Closing Robot
+2023-11-08 12:08:51.218+01:00 |            |    INFO | -> Exiting Aiviro
+2023-11-08 12:08:51.370+01:00 |            |    INFO | -> Closing streaming server
+2023-11-08 12:08:51.652+01:00 |            |    INFO | -> Generate image-logs (it can take a while)

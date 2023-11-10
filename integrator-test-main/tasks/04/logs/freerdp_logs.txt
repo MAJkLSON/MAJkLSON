@@ -1,0 +1,36 @@
+﻿2023-11-08 12:07:19.753 INFO  [19548] [rdp::RDPApplication::initSystem@28] Initializing System signals
+2023-11-08 12:07:19.753 INFO  [19548] [rdp::freerdpCreateInstance@107] Creating instance of freerdp
+2023-11-08 12:07:19.767 INFO  [19548] [rdp::RDPSystem::initialize@469] System initialize
+2023-11-08 12:07:19.767 INFO  [19548] [rdp::RDPApplication::initGdi@139] Initializing GDI signals
+2023-11-08 12:07:19.767 INFO  [19548] [rdp::RDPGdi::initialize@170] Initialize defaul data
+2023-11-08 12:07:19.770 INFO  [19548] [rdp::RDPApplication::initCliprdr@154] Initializing Cliprdr signals
+2023-11-08 12:07:19.770 INFO  [19548] [rdp::RDPApplication::initInput@49] Initializing Input signals
+2023-11-08 12:07:19.770 INFO  [19548] [rdp::RDPApplication::setServerHostname@88] Server set to ***********
+2023-11-08 12:07:19.770 INFO  [19548] [rdp::RDPApplication::setUsername@72] Username set to ***********
+2023-11-08 12:07:19.771 INFO  [19548] [rdp::RDPApplication::setPassword@80] Password set *****
+2023-11-08 12:07:19.771 INFO  [19548] [rdp::RDPApplication::setDomain@104] Domain set to ***********
+2023-11-08 12:07:19.775 INFO  [19548] [rdp::RDPApplication::start@181] Starting rdp connection
+2023-11-08 12:07:19.775 INFO  [19548] [freerdp_set_last_error_ex@885] freerdp_connect:freerdp_set_last_error_ex resetting error state
+2023-11-08 12:07:19.775 INFO  [19548] [freerdp_client_load_static_channel_addin@3318] loading channelEx rdpdr
+2023-11-08 12:07:19.775 INFO  [19548] [freerdp_client_load_static_channel_addin@3318] loading channelEx rdpsnd
+2023-11-08 12:07:19.775 INFO  [19548] [freerdp_client_load_static_channel_addin@3318] loading channelEx cliprdr
+2023-11-08 12:07:20.127 INFO  [19548] [primitives_autodetect_best@263] primitives autodetect, using optimized
+2023-11-08 12:07:20.158 INFO  [19548] [freerdp_set_last_error_ex@885] freerdp_tcp_is_hostname_resolvable:freerdp_set_last_error_ex resetting error state
+2023-11-08 12:07:20.159 INFO  [19548] [freerdp_set_last_error_ex@885] freerdp_tcp_connect:freerdp_set_last_error_ex resetting error state
+2023-11-08 12:07:21.593 INFO  [19548] [gdi_init_ex@1273] Local framebuffer format  PIXEL_FORMAT_BGR24
+2023-11-08 12:07:21.593 INFO  [19548] [gdi_init_ex@1275] Remote framebuffer format PIXEL_FORMAT_RGB16
+2023-11-08 12:07:21.594 INFO  [19548] [rdp::RDPGdi::onPostConnect@77] GDI initialized successfully
+2023-11-08 12:07:21.594 INFO  [19548] [rdpsnd_load_device_plugin@780] [static] Loaded fake backend for rdpsnd
+2023-11-08 12:07:21.594 INFO  [19548] [rdp::RDPCliprdr::onCliprdrChannelConnected@94] Channel cliprdr connected
+2023-11-08 12:07:21.595 INFO  [4368] [rdp::RDPSystem::mainFreerdpLoop@293] Starting main loop
+2023-11-08 12:07:23.532 INFO  [4368] [freerdp_set_last_error_ex@885] rdp_set_error_info:freerdp_set_last_error_ex resetting error state
+2023-11-08 12:07:24.508 INFO  [14692] [rdp::RDPCliprdr::onServerCapabilities@235] Received server capabilities:
+2023-11-08 12:07:24.508 INFO  [14692] [rdp::RDPCliprdr::onServerCapabilities@241]  * File Clip enabled
+2023-11-08 12:07:24.508 INFO  [14692] [rdp::RDPCliprdr::onServerCapabilities@245]  * Locking enabled
+2023-11-08 12:07:24.508 INFO  [14692] [rdp::RDPCliprdr::onServerCapabilities@249]  * Huge file support enabled
+2023-11-08 12:07:24.508 INFO  [14692] [rdp::RDPCliprdr::onMonitorReady@151] Clipboard ready
+2023-11-08 12:07:24.601 INFO  [14692] [rdp::RDPCliprdr::onServerFormatListResponse@264] Received acknowledgement of the new type. Result:1
+2023-11-08 12:08:50.286 INFO  [19548] [rdp::RDPApplication::stop@186] Stopping rdp connection
+2023-11-08 12:08:50.286 INFO  [4368] [rdp::RDPSystem::mainFreerdpLoop@328] Main loop ended
+2023-11-08 12:08:50.288 INFO  [4368] [rdp::RDPCliprdr::onCliprdrChannelDisconnected@108] Channel cliprdr disconnected
+2023-11-08 12:08:50.364 INFO  [19548] [rdp::freerdpFreeInstance@126] Freeing an instance of freerdp

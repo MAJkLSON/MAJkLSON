@@ -1,0 +1,18 @@
+image: "python:3.9"
+
+# This is a basic example how to use gitlab pipelines
+# It can be extended to automatic builds and deployments/deliveries
+# For more info see: https://docs.gitlab.com/ee/ci/
+
+stages:
+  - code-check
+
+# This task checks if the code formatting follows the definition of the .pre-commit-config.yaml file
+linter:
+  stage: code-check
+  before_script:
+    - pip install pre-commit
+  script:
+    - pre-commit run --all-files --color=always
+  tags:
+    - docker
